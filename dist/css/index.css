@@ -1,0 +1,380 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: 16px;
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+ul, ol, li {
+  list-style: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0; }
+
+input {
+  outline: none; }
+
+/* 公共样式 */
+.border_none {
+  border: none !important; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.bg_none {
+  background: none !important;
+  /*清除背景*/ }
+
+.ul3 {
+  height: 36px;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6; }
+  .ul3 .w1 {
+    margin-left: 245px; }
+  .ul3 .w2 {
+    margin: 0 85px 0 73px; }
+  .ul3 .w4 {
+    margin: 0 94px 0 121px; }
+  .ul3 li {
+    height: 16px;
+    padding: 10px 0;
+    float: left; }
+    .ul3 li img {
+      margin-right: 9px;
+      float: left; }
+    .ul3 li span {
+      height: 16px;
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      float: left; }
+  .ul3 li:nth-last-child(1) img {
+    width: 14px;
+    height: 16px; }
+  .ul3 li:nth-last-child(2) img {
+    width: 18px;
+    height: 14px; }
+  .ul3 li:nth-last-child(3) img {
+    width: 15px;
+    height: 14px; }
+  .ul3 li:nth-last-child(4) img {
+    width: 16px;
+    height: 14px; }
+  .ul3 li:nth-last-child(5) img {
+    width: 16px;
+    height: 16px; }
+
+.ban {
+  height: 430px;
+  position: relative; }
+  .ban img {
+    width: 100%;
+    height: 100%; }
+  .ban .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 198px;
+    height: 430px;
+    background: #204157;
+    z-index: 1;
+    opacity: 0.8; }
+    .ban .nav li {
+      padding: 16px 0 16px 18px;
+      color: #fff; }
+      .ban .nav li .iconfont {
+        width: 26px;
+        height: 17px;
+        margin-left: 24px; }
+      .ban .nav li:hover .nav8 {
+        display: block; }
+      .ban .nav li .nav8 {
+        display: none;
+        position: absolute;
+        left: 199px;
+        top: 0;
+        height: 430px;
+        width: 248px;
+        background-color: #fff;
+        border: 1px solid #f4f4f4; }
+        .ban .nav li .nav8 dl {
+          width: 247px;
+          height: 106px;
+          border-bottom: 1px solid #f4f4f4; }
+        .ban .nav li .nav8 dt {
+          width: 104px;
+          height: 106px;
+          float: left; }
+          .ban .nav li .nav8 dt img {
+            width: 83px;
+            height: 100px; }
+        .ban .nav li .nav8 dd {
+          width: 142px;
+          height: 106px;
+          float: left; }
+          .ban .nav li .nav8 dd a {
+            width: 126px;
+            height: 60px;
+            color: #333; }
+            .ban .nav li .nav8 dd a p {
+              width: 126px;
+              height: 39px;
+              font-size: 12px;
+              line-height: 19px;
+              overflow: hidden; }
+            .ban .nav li .nav8 dd a span {
+              font-size: 10px;
+              margin-right: 70px; }
+              .ban .nav li .nav8 dd a span:hover {
+                color: #ff2919; }
+            .ban .nav li .nav8 dd a i {
+              font-size: 10px;
+              color: #333;
+              padding-right: 40px;
+              background: url(../imgs/p1_07.png) no-repeat right; }
+            .ban .nav li .nav8 dd a:hover {
+              color: #ff2919; }
+        .ban .nav li .nav8 dd .t3 span {
+          color: #ff2919; }
+      .ban .nav li:nth-child(1) {
+        margin-top: 3px; }
+      .ban .nav li a {
+        font-size: 12px;
+        color: #fff;
+        margin-left: 15px; }
+        .ban .nav li a span {
+          color: #8b9aa3;
+          margin-left: 10px; }
+          .ban .nav li a span img {
+            width: 10px;
+            height: 10px;
+            margin-left: 5px; }
+      .ban .nav li:hover {
+        background-color: #202227; }
+
+.n1 {
+  height: 180px;
+  border: 1px solid #e0e0e0; }
+  .n1 div {
+    width: 268px;
+    height: 180px;
+    float: left; }
+  .n1 img {
+    width: 150px;
+    height: 160px;
+    margin: 15px 59px; }
+  .n1 .m1, .n1 .m2, .n1 .m3 {
+    border-right: 1px solid #e0e0e0; }
+
+.img {
+  margin-top: 16px;
+  height: 108px; }
+  .img img {
+    width: 100%;
+    height: 100%; }
+
+.mx {
+  padding-bottom: 30px; }
+
+.mx span {
+  letter-spacing: 12px; }
+
+.n2 {
+  text-align: center; }
+  .n2 h1 {
+    font-size: 36px;
+    line-height: 53px;
+    color: #363636;
+    padding-top: 55px; }
+  .n2 span {
+    width: 100%;
+    font-size: 14px;
+    line-height: 14px;
+    color: #999ca2;
+    margin-bottom: 35px; }
+
+.mx1, .mx2 {
+  height: 612px;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0; }
+  .mx1 img:hover, .mx2 img:hover {
+    animation: photo 1s linear 1; }
+
+@keyframes photo {
+  0% {
+    transform: translateY(0px); }
+  33% {
+    transform: translateY(6px); }
+  66% {
+    transform: translateY(-6px); }
+  100% {
+    transform: translateY(0px); } }
+
+.mx1_r, .mx2_r, .mx1_l, .mx2_l {
+  width: 538px;
+  height: 612px; }
+
+.mx1_r, .mx2_r {
+  border-left: 1px solid #e0e0e0; }
+
+.mx1 {
+  border-top: 1px solid #e0e0e0; }
+
+.mm img {
+  width: 421px;
+  height: 510px;
+  margin: 47px 59px 0 57px; }
+
+.mm a {
+  margin-left: 63px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 24px;
+  color: #333; }
+  .mm a:hover {
+    color: #ff6600; }
+
+.mm p {
+  font-size: 12px;
+  color: #ff6600;
+  text-align: center; }
+
+.mm p span {
+  font-size: 10px;
+  color: #333;
+  padding-right: 45px;
+  background: url(../imgs/p1_07.png) no-repeat right; }
+
+.mx1_t, .mx1_b, .mx2_t, .mx2_b {
+  height: 305px; }
+
+.mx1_t, .mx2_t {
+  border-bottom: 1px solid #e0e0e0; }
+
+.mx1_t1, .mx1_t2, .mx1_b1, .mx1_b2, .mx2_b1, .mx2_b2 {
+  height: 305px;
+  width: 267px; }
+
+.mx1_t1, .mx1_b1, .mx2_b1 {
+  border-right: 1px solid #e0e0e0; }
+
+.mx1_t1 img, .mx1_t2 img, .mx1_b1 img, .mx1_b2 img, .mx2_b1 img, .mx2_b2 img {
+  width: 190px;
+  height: 190px;
+  margin: 41px 41px 0 36px; }
+
+.mx2_t img {
+  width: 481px;
+  height: 149px;
+  margin: 65px 36px 0 23px; }
+
+.hy {
+  height: 170px; }
+
+.ul4 {
+  height: 378px;
+  border: 1px solid #e0e0e0; }
+  .ul4 div {
+    width: 269px;
+    height: 378px;
+    float: left; }
+  .ul4 img {
+    width: 161px;
+    height: 225px;
+    margin: 52px 54px 30px; }
+    .ul4 img:hover {
+      animation: photo 1s linear 1; }
+
+@keyframes photo {
+  0% {
+    transform: translateY(0px); }
+  33% {
+    transform: translateY(6px); }
+  66% {
+    transform: translateY(-6px); }
+  100% {
+    transform: translateY(0px); } }
+  .ul4 .m1, .ul4 .m2, .ul4 .m3 {
+    border-right: 1px solid #e0e0e0; }
+  .ul4 p {
+    width: 107px;
+    height: 34px;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    text-align: center; }
+    .ul4 p span {
+      font-size: 12px;
+      color: #3c3c3c;
+      line-height: 34px;
+      margin-top: 12px;
+      margin-bottom: 10px; }
+
+.ul5 {
+  height: 38px;
+  margin-top: 108px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0; }
+  .ul5 li {
+    float: left;
+    margin-right: 87px; }
+    .ul5 li a {
+      font-size: 12px;
+      line-height: 38px;
+      color: #3c3c3c; }
+      .ul5 li a:hover {
+        color: #ff2919; }
+
+.ul6 {
+  height: 36px;
+  border-top: 1px solid #e0e0e0; }
+  .ul6 li {
+    float: left;
+    color: #9a999a;
+    font-size: 12px;
+    line-height: 36px;
+    margin-right: 9px; }
+    .ul6 li:nth-child(3) {
+      background: url(../imgs/an_03.png) no-repeat left; }
+    .ul6 li:nth-child(4) {
+      background: url(../imgs/an_05.png) no-repeat left; }
+    .ul6 li a {
+      color: #9a999a;
+      padding-left: 30px; }
+      .ul6 li a:hover {
+        color: #ff2919; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff2") format("woff2"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg"); }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
