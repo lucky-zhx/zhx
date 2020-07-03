@@ -7,60 +7,60 @@
         float: left;
         width: 611px;
         height: 729px;
-        .kt{
-            height: 471px;
-            width: 611px;
-            position: absolute;
-            img{
-                width: 100%;
-                height: 100%;
-            }
-        }
-        #mark {
-            width: 200px;
-            height: 200px;
-            background-color: black;
-            position: absolute;
-            opacity: 0.5;
-            filter: aplha(opacity=50);
-            left: 0px;
-            top: 0px;
-            display: none;
-        }
-        #bigBox { 
-            position: absolute;
-            top: 100px;
-            left: 800px; 
-            height: 400px;
-            width: 400px;
-            display: none; 
-            overflow: hidden; 
-        }
-        #bigBox img { 
-            width: 942px;
-            height: 1222px;
-            position: absolute;
-        }
+        // .kt{
+        //     height: 471px;
+        //     width: 611px;
+        //     position: absolute;
+        //     img{
+        //         width: 100%;
+        //         height: 100%;
+        //     }
+        // }
+        // #mark {
+        //     width: 200px;
+        //     height: 200px;
+        //     background-color: black;
+        //     position: absolute;
+        //     opacity: 0.5;
+        //     filter: aplha(opacity=50);
+        //     left: 0px;
+        //     top: 0px;
+        //     display: none;
+        // }
+        // #bigBox { 
+        //     position: absolute;
+        //     top: 100px;
+        //     left: 800px; 
+        //     height: 400px;
+        //     width: 400px;
+        //     display: none; 
+        //     overflow: hidden; 
+        // }
+        // #bigBox img { 
+        //     width: 942px;
+        //     height: 1222px;
+        //     position: absolute;
+        // }
 
-        .imgList{
-            width: 325px;
-            height: 118px;
-            margin-top: 20px;
-            margin-left: 122px;
-            li{
-                float: left;
-                margin-right: 10px;
-                border:1px solid #e6e6e6;
-                img{
-                    display: block;
-                    width: 55px;
-                    height: 55px;
-                }
-                &:hover{
-                    border:2px solid #ff6600;
-                }
-            }
-        }
+        // .imgList{
+        //     width: 325px;
+        //     height: 118px;
+        //     margin-top: 20px;
+        //     margin-left: 122px;
+        //     li{
+        //         float: left;
+        //         margin-right: 10px;
+        //         border:1px solid #e6e6e6;
+        //         img{
+        //             display: block;
+        //             width: 55px;
+        //             height: 55px;
+        //         }
+        //         &:hover{
+        //             border:2px solid #ff6600;
+        //         }
+        //     }
+        // }
      }
     .right { 
         float: right; 

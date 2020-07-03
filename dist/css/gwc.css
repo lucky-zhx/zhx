@@ -56,50 +56,6 @@ input {
     float: left;
     width: 611px;
     height: 729px; }
-    .shopping .left .kt {
-      height: 471px;
-      width: 611px;
-      position: absolute; }
-      .shopping .left .kt img {
-        width: 100%;
-        height: 100%; }
-    .shopping .left #mark {
-      width: 200px;
-      height: 200px;
-      background-color: black;
-      position: absolute;
-      opacity: 0.5;
-      filter: aplha(opacity=50);
-      left: 0px;
-      top: 0px;
-      display: none; }
-    .shopping .left #bigBox {
-      position: absolute;
-      top: 100px;
-      left: 800px;
-      height: 400px;
-      width: 400px;
-      display: none;
-      overflow: hidden; }
-    .shopping .left #bigBox img {
-      width: 942px;
-      height: 1222px;
-      position: absolute; }
-    .shopping .left .imgList {
-      width: 325px;
-      height: 118px;
-      margin-top: 20px;
-      margin-left: 122px; }
-      .shopping .left .imgList li {
-        float: left;
-        margin-right: 10px;
-        border: 1px solid #e6e6e6; }
-        .shopping .left .imgList li img {
-          display: block;
-          width: 55px;
-          height: 55px; }
-        .shopping .left .imgList li:hover {
-          border: 2px solid #ff6600; }
   .shopping .right {
     float: right;
     width: 464px;

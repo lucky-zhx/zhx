@@ -75,36 +75,47 @@ input {
   height: 539px;
   border: 1px solid #c8c8c8; }
   .lu2 h1 {
-    font-size: 12px;
+    font-size: 22px;
     color: #747774;
     margin: 38px 0 21px 40px; }
   .lu2 form {
-    margin-left: 40px; }
+    margin-left: 40px;
+    font-size: 12px;
+    color: #747774; }
     .lu2 form input {
       width: 335px;
       height: 45px;
-      color: #747774;
-      font-size: 12px;
       line-height: 45px;
       margin-bottom: 12px;
       padding-left: 11px; }
+      .lu2 form input:nth-child(1) {
+        width: 223px; }
+      .lu2 form input:nth-child(2) {
+        width: 102px; }
     .lu2 form .put {
-      width: 15px;
-      height: 15px; }
-      .lu2 form .put span {
-        color: #0092d8; }
+      width: 12px;
+      height: 12px;
+      margin: 20px 10px 0 0; }
+    .lu2 form span {
+      font-size: 12px;
+      color: #0092d8; }
     .lu2 form p {
-      line-height: 20px;
-      color: #747774;
-      font-size: 12px; }
-    .lu2 form button {
-      width: 335px;
+      line-height: 20px; }
+    .lu2 form #zc {
+      width: 336px;
       height: 40px;
       background-color: #0092d8;
       color: #fff;
       font-size: 14px;
       margin-top: 27px;
       border: none; }
+  .lu2 a {
+    font-size: 12px;
+    color: #0092d8;
+    line-height: 46px;
+    padding-left: 274px; }
+    .lu2 a:hover {
+      color: #ff2919; }
 
 .footer {
   width: 100%;
